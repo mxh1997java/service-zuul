@@ -12,9 +12,9 @@ eureka:
 
 zuul:
   routes:
-    api-a:
-      path: /api-a/**
-      service-id: service-a
-    api-b:
-      path: /api-b/**
-      service-id: service-b
+    api-business:
+      path: /business/**
+      service-id: service-business
+    api-tracking:
+      path: /tracking/**
+      service-id: service-tracking
